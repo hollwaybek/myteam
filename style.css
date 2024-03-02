@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 73px 165px;
+}
+
+.header__right {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__right>nav>ul {
+    gap: 40px;
+}
+
+.header__right>nav>ul>li>a {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.header__gamburger {
+    display: none;
+}
+
+.header__right>button {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    width: 153px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.header__right>button:hover {
+    background-color: white;
+    color:  #002529;
+    transition: all 0.15s;
+}
+
+.first__section {
+    background-color: #014E56;
+}
+
+.fourth__section_text>button {
+    color: #012F34;
+}
+
+.first__section__text {
+    display: flex;
+    padding: 47px 165px 120PX;
+    justify-content: space-between;
+}
+
+.first__section__text>h1 {
+    width: 350px;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.first__section__text>p {
+    width: 730px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 44px;
+    color: #FFFFFF;
+
+}
+
+.third__section__phone {
+    display: none;
+}
+
+.second__section {
+    background: #004047;
+    padding: 71px 167px 178.66px;
+}
+
+.second__section__top_text {
+    display: flex;
+    justify-content: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.second__section__cards {
+    margin-top: 69.5px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.second__section__1_card {
+    width: 350px;
+    height: 274.73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #012F34;
+    gap: 20.39px;
+
+}
+
+.second__section__1_card>img {
+    width: 96px;
+    height: 96px;
+    margin-top: 44px;
+}
+
+.card_text>.name {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.card_text>.work {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.third__section {
+    background: #012F34;
+    padding: 113px 165px;
+}
+
+.third__section_text>p {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.third__section__tablet {
+    display: none;
+}
+
+.third__section__logos {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 52.09px;
+}
+
+.fourth__section {
+    background: #F67E7E;
+    padding: 76px 263px;
+}
+
+.fourth__section_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth__section_text>p {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #012F34;
+}
+
+.fourth__section_text>button {
+    width: 153px;
+    height: 48px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #012F34;
+    border-radius: 30px;
+}
+
+.fourth__section_text>button:hover {
+    background-color: #012F34;
+    color: white;
+    transition: all 0.15s;
+}
+
+.footer {
+    background: #002529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 171px 48px 159px;
+}
+
+@media (max-width:768px) {
+    .header {
+        padding: 64px 39.5px 0;
+    }
+
+    .first__section__text {
+        flex-direction: column;
+        align-items: center;
+        padding: 112px 155.5px;
+    }
+
+    .first__section__text>p {
+        margin-top: 24px;
+        width: 457px;
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .first__section__text>h1 {
+        width: auto;
+    }
+
+    .second__section__top_text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    .second__section {
+        padding: 100px 0 221px;
+    }
+
+    .second__section__cards {
+        gap: 11px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 76px;
+    }
+
+    .second__section__1_card {
+        width: 281px;
+        height: 253px;
+    }
+
+    .third__section {
+        background-color: #004047;
+        padding: 100px 39.5px;
+    }
+
+    .third__section__logos {
+        margin-top: 48px;
+        gap: 49px;
+    }
+
+    .third__section_text>p {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .third__section__tablet {
+        display: block;
+        margin-top: 48px;
+    }
+
+    .third__section__logos {
+        display: none;
+    }
+
+    .fourth__section {
+        padding: 76px 97.5px;
+    }
+
+    .fourth__section_text>p {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        align-items: center;
+        display: flex;
+    }
+
+    .fourth__section_text>button {
+        width: 153px;
+        height: 48px;
+    }
+
+    .footer {
+        padding: 32.02px 23px 30px 56px;
+    }
+}
+
+@media (max-width: 430px) {
+    .header {
+        padding: 48px 24px 0;
+    }
+
+    .header__gamburger {
+        display: block;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .first__section__text {
+        padding: 80px 24px 108px;
+    }
+
+    .first__section__text>h1 {
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .first__section__text>p {
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 327px;
+        margin-top: 16px;
+    }
+
+    .second__section {
+        padding: 88px 24px 112px;
+    }
+
+    .second__section__1_card {
+        width: 327px;
+        height: 281px;
+    }
+
+    .third__section__phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third__section_text>p {
+        margin-bottom: 52.4px;
+    }
+
+    .third__section__tablet {
+        display: none;
+    }
+
+    .fourth__section {
+        padding: 83px 24px;
+    }
+
+    .fourth__section_text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fourth__section_text>p {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 66px 134px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer__left>img {
+        width: 95.97px;
+        height: 24px;
+
+    }
+
+
+}
